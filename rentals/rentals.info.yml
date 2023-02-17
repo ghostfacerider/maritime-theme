@@ -1,0 +1,15 @@
+name: Equipment rentals
+description: 'Website to rent equipment'
+type: theme
+base theme: false
+core_version_requirement: ^8 || ^9 || ^10
+
+version: 1.0
+libraries:
+ - rentals/global-styling
+regions:
+  header: header
+  menu: menu
+  content: content
+  sidebar: sidebar
+  footer: footer
