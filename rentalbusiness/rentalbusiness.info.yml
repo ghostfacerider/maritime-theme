@@ -1,0 +1,23 @@
+name: 'Rental Equipment Theme'
+type: theme
+'base theme': stable9
+starterkit: true
+version: VERSION
+libraries:
+  - rentalbusiness/base
+  - rentalbusiness/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - rentalbusiness/user
+  core/drupal.dropbutton:
+    - rentalbusiness/dropbutton
+  core/drupal.dialog:
+    - rentalbusiness/dialog
+  file/drupal.file:
+    - rentalbusiness/file
+  core/drupal.progress:
+    - rentalbusiness/progress
+core_version_requirement: ^10
+generator: 'starterkit_theme:10.0.3'
+description: ' Equipment Rental Business'
